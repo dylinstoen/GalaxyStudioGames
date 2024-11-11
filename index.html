@@ -2,41 +2,129 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GalaxyStudioGames Portfolio</title>
+    <title>Galaxy Studio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Optional: Add smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>GalaxyStudioGames</h1>
-        <nav>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about">About Me</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="header-container">
+            <!-- Logo Section -->
+            <a href="#home" class="logo">
+                <img src="images/logo4.png" alt="Galaxy Studio Logo">
+            </a>
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
     <main>
-        <section id="projects">
-            <h2>Projects</h2>
-            <!-- Add project entries here -->
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <h2>Welcome Traveler</h2>
+            <p>Creating a gaming experience thats out of this world.</p>
         </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <!-- Add skill descriptions here -->
+        
+        <!-- Games Section -->
+        <section id="games" class="games">
+            <h2>Our Games</h2>
+            <div class="game-list">
+              
+              
+                <!-- Game 1 -->
+                <script async
+                src="https://js.stripe.com/v3/buy-button.js">
+              </script>
+              
+              <stripe-buy-button
+                buy-button-id="buy_btn_1QJjvWRpNL7c2hDPCutmHtfc"
+                publishable-key="pk_live_51QJhpdRpNL7c2hDPXpJ4qQ4sz56PWXE8mTvCupnuT67T3LEEpbPoM4bGLEswPNqOJoXU4FM2TET7blEeZznH8P5I00zm1hiXVu"
+              >
+              </stripe-buy-button>
+
+
+                <!-- Game 2 -->
+                <script async
+                src="https://js.stripe.com/v3/buy-button.js">
+              </script>
+              
+              <stripe-buy-button
+                buy-button-id="buy_btn_1QJjqLRpNL7c2hDP2Xqfj8Qa"
+                publishable-key="pk_live_51QJhpdRpNL7c2hDPXpJ4qQ4sz56PWXE8mTvCupnuT67T3LEEpbPoM4bGLEswPNqOJoXU4FM2TET7blEeZznH8P5I00zm1hiXVu"
+              >
+
+              </stripe-buy-button>
+                <!-- Game 3 -->
+
+                <script async
+                src="https://js.stripe.com/v3/buy-button.js">
+              </script>
+              
+              <stripe-buy-button
+                buy-button-id="buy_btn_1QJkkqRpNL7c2hDPaSycMD2V"
+                publishable-key="pk_live_51QJhpdRpNL7c2hDPXpJ4qQ4sz56PWXE8mTvCupnuT67T3LEEpbPoM4bGLEswPNqOJoXU4FM2TET7blEeZznH8P5I00zm1hiXVu"
+              >
+              </stripe-buy-button>
+
+
+              <!-- Game 4-->
+              <script async
+              src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+            
+            <stripe-buy-button
+              buy-button-id="buy_btn_1QJkmSRpNL7c2hDP5SS00HWo"
+              publishable-key="pk_live_51QJhpdRpNL7c2hDPXpJ4qQ4sz56PWXE8mTvCupnuT67T3LEEpbPoM4bGLEswPNqOJoXU4FM2TET7blEeZznH8P5I00zm1hiXVu"
+            >
+            </stripe-buy-button>
+            </div>
         </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <!-- Add your bio here -->
+
+        <!-- Products -->
+        <section id="products" class="products">
+            <h2>Products</h2>
+            <div class="product-list">
+                <!-- Product Link 1 -->
+                <div class="product">
+                    <a href="https://blendermarket.com/creators/dylinstoen" target="_blank">
+                        <img src="images/blender.jpg" alt="Product 1 Thumbnail">
+                        <h3>Blender Add-ons</h3>
+                    </a>
+                </div>
+ 
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <!-- Add contact form or links -->
+
+        <!-- About Us Section -->
+        <section id="about" class="about-us">
+            <h2>About Us</h2>
+            <p>Our mission is to create a gaming experience for players that they will never forget. From a small town in Washington, Galaxy Studios was founded by Dylin Stoen back in 2022 where he made it his mission to bring the fun and excitment back into gaming.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us at <a href="mailto:contact@galaxystudio.com">contact@galaxystudio.com</a>.</p>
         </section>
     </main>
+</div id="footer" class="footer">
     <footer>
-        <p>&copy; 2024 GalaxyStudioGames</p>
+        <p>&copy; 2022 Galaxy Studio. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+</div>
+
 </body>
 </html>
